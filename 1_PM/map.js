@@ -4,11 +4,13 @@
 const arr = [0, 1, 2, 3, 4];
 
 const triple = () => {
-  // TODO
+  for(let i = 0; i < arr.length; i++)
+    arr[i] *=  3
 };
 
 Array.prototype.map = function(fun) {
-  // TODO
+  fun();
+  return arr
 };
 
 console.log(arr.map(triple));

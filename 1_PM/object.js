@@ -3,5 +3,15 @@
 // HINT: recursion may help here
 
 const hasFalsyValue = obj => {
-  return false;
+  for(let el in obj){
+    if(typeof obj[el] === 'object'){
+      if(hasFalsyValue(obj[el]) === true){
+        return true
+      }
+    }
+    else if(!obj[el]){
+      return true
+    }
+  }
+  return false
 };
