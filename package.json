@@ -1,0 +1,24 @@
+{
+  "name": "bootcamp19-exercises",
+  "version": "1.0.0",
+  "description": "Exercises for the 2019 DEV Winter bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZuzannaS/bootcamp19-exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZuzannaS/bootcamp19-exercises/issues"
+  },
+  "homepage": "https://github.com/ZuzannaS/bootcamp19-exercises#readme",
+  "dependencies": {
+    "@google/maps": "^0.5.5",
+    "dotenv": "^6.2.0"
+  }
+}
