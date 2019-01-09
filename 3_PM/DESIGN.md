@@ -1,0 +1,7 @@
+Our first component is the Add Todos function. It will be divided into two subcomponents, which are the input bar and the add button. The "input" bar should use the input React tag while the "add" button should use the button React tag. It needs to create new objects with an id and string as a todo.
+
+When we search for a Todo, we should use the input React Tag and make sure that it searches through the list dynamically. It will utilize strings in order to find the corresponding text.
+
+We will have a conditional component with a bulleted list of todos as subcomponents using the ul React tag. Each todo listed will have the li React tag. We will use an integer id for each todo object while the text itself will be a string, both of which the list as a whole should have access to. Each todo will be divided into a string and a delete button. We should use a conditional component so that if the result of the searching function matches up with a todo, then the list will show the subsequent parts of the todo list. Otherwise, there will be a No results found message. Once clicking the delete button, it will need to tell the database to delete the id and string of the corresponding todo.
+
+Current Todos/No Todos to complete will be its own component, and should have a condition in which Current Todos will only show up if the database has todos, while No Todos to complete will show up if the database is empty. The messages that show up will be strings.
